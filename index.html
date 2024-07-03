@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="javascript.js"></script>
+    <script src="crearProductos.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5afec04305.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main class="tienda-figuras">
+        <header class="cabeza-tienda">
+            <h1>Perpon Shop</h1>
+        </header>
+        <div class="marcadores-busquedas">
+            <div class="busqueda">
+                <label for="search">Search: </label>
+                <input type="search" placeholder="Buscar">
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle botonBusqueda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Marca
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item botonMarca">Taito</a></li>
+                  <li><a class="dropdown-item botonMarca">Bandai</a></li>
+                  <li><a class="dropdown-item botonMarca">Good Smile</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle botonBusqueda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categoría
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item botonCategoria">Mdl Kit</a></li>
+                  <li><a class="dropdown-item botonCategoria">Figura</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle botonBusqueda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Collección
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item botonColleccion">The Witch from Mercury</a></li>
+                  <li><a class="dropdown-item botonColleccion">Figma Multicolor</a></li>
+                  <li><a class="dropdown-item botonColleccion">Tsukimichi Moonlit</a></li>
+                </ul>
+              </div>
+        </div>
+        <div id="productos" class="productos">
+
+        </div>
+    </main>
+    <!-- <div class="card-producto">
+        <div class="productoImg-descripcion" style="background: url(assets/51OvjuUOGML._AC_UL320_.jpg) center no-repeat; background-size: cover;">
+        </div>
+        <div class="codigo-barras">
+            <h2><strong>CodID</strong><br>29120</h2> -- id --
+        </div>
+        <div class="ver-todo">
+            <h2><i class="fa-regular fa-eye"></i></h2>
+        </div>
+        <div class="medidas">
+            <h2>Meds <i class="fa-solid fa-ruler"></i></h2>
+            <div class="descripcion">
+                <h2><strong>Alt</strong><br>20cm</h2> -- descripcion --
+                <h2><strong>Anch</strong><br>15cm</h2> -- descripcion --
+                <h2><strong>Prof</strong><br>10cm</h2> -- descripcion --
+            </div>
+        </div>
+        <div class="producto-info">
+
+            -- <section class="nombre-colleccion">
+                <h1>Hatsune Miku</h1> -- nombre --
+                <h2><strong>Colleccion:</strong> Flor de Primavera</h2> -- colleccion --
+            </section>
+
+            <section class="marca-categoria">
+                <h2><strong>Marca: </strong>Bandai</h2> -- marca --
+                <h2><strong>Catg: </strong>Figura</h2> -- categoria --
+            </section>
+
+            <section class="stock-disponibilidad">
+                <h2><strong>Envio: </strong>7 days</h2>  disponibilidad 
+                <h2><strong>Stock: </strong>10</h2>  stock 
+            </section>
+
+            <section class="precio">
+                <h2><strong>Price: </strong>200$</h2>  precio 
+            </section>
+
+            <section class="botonesCompra">
+                <a href="#">Agregar</a>
+            </section> 
+        
+        </div>
+    </div> -->
+</body>
+</html>
